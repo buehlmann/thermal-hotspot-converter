@@ -44,7 +44,7 @@ public class Main {
             for (CsvData data : dataSource.fetch()) {
                 List<Record> parsedData = parser.parse(data.getId(), data);
                 String kml = converter.toKml(data.getId(), parsedData);
-                writer.writeToFile(kml, path + data.getId() + ".kml");
+                writer.writeToFile(kml, path + data.getId().toLowerCase() + ".kml");
             }
         } catch (IOException e) {
             logger.error("IOException occurred", e);
