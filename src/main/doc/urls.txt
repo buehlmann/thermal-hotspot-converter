@@ -1,0 +1,10 @@
+HTTP Get Requests
+
+10000 hotspots, july+7, switzerland
+http://thermal.kk7.ch/php/hotspots.php?t=Jul_07&typ=csv&bbox=5.955870%2C45.818020%2C10.492030%2C47.808380&limit=10000
+
+10000 hotspots, july+7, switzerland
+http://thermal.kk7.ch/php/hotspots.php?t=Jul_10&typ=csv&bbox=5.955870%2C45.818020%2C10.492030%2C47.808380&limit=10000
+
+http://thermal.kk7.ch/php/hotspots.php?t=Jan_07&typ=csv&bbox=5.866240%2C47.270210%2C15.042050%2C55.058140&limit=10000
+
